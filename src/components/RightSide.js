@@ -40,8 +40,8 @@ const RightSide = (props) => {
       <img src="/images/ad-images.jpg" alt="ad-images" />
     </BannerCard>
      <DevelopDesign>
-      <h2>Design and Develop by Adarsh Tripathi</h2>
-      <a href="https://github.com/adarshtiwari1998">Github Profile Link</a>
+      <h2>Design and Develop by dheeresh</h2>
+      
     </DevelopDesign>
   </Container>
  )

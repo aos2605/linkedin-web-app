@@ -1,3 +1,17 @@
+// import {initializeApp } from "firebase/app";
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDrgEIfkrFSnO5mNmW-kbOKaeMf1ZMje-c",
+//   authDomain: "linkedin-clone-3b39f.firebaseapp.com",
+//   databaseURL: "https://linkedin-clone-3b39f-default-rtdb.firebaseio.com",
+//   projectId: "linkedin-clone-3b39f",
+//   storageBucket: "linkedin-clone-3b39f.appspot.com",
+//   messagingSenderId: "450842102133",
+//   appId: "1:450842102133:web:2b15831b517105ab012b3c"
+//   databaseURL: "https://console.firebase.google.com/u/0/project/linkedin-clone-3b39f/database/linkedin-clone-3b39f-default-rtdb/data/~2F"
+// };
+
+// export const app = initializeApp(firebaseConfig);
+
 import firebase from "firebase";
 
 const firebaseConfig = {
@@ -10,7 +24,6 @@ const firebaseConfig = {
     measurementId: "G-MWRY3X719K"
   };
 
-  
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
   const db = firebaseApp.firestore();
